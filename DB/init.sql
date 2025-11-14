@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS miBBDD;
+USE miBBDD;
+
 CREATE TABLE `Estudiantes` (
   `ID_Estudiante` int(9) unsigned NOT NULL AUTO_INCREMENT,
   `Nombre` varchar(45) NOT NULL,
